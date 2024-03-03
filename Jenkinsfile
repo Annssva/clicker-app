@@ -23,6 +23,7 @@ pipeline {
             steps {
                 script {
                     archiveArtifacts 'build/**/*'
+                    echo 'Артефакт успешно сохранен!'
                 }
             }
         }
