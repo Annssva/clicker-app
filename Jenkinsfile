@@ -22,7 +22,7 @@ pipeline {
         stage('Артефакт') {
             steps {
                 script {
-                    archiveArtifacts 'build/**'
+                    archiveArtifacts 'build/**/*'
                 }
             }
         }
