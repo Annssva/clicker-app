@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-style: normal;
+    src: url('./fonts/Ubuntu-Bold.ttf') format('opentype');
+}
+@font-face {
+    font-family: Ubuntu;
+    font-weight: 300;
+    font-style: normal;
+    src: url('./fonts/Ubuntu-Light.ttf') format('opentype');
+}
+@font-face {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-style: normal;
+    src: url('./fonts/Ubuntu-Medium.ttf') format('opentype');
+}
+@font-face {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-style: normal;
+    src: url('./fonts/Ubuntu-Regular.ttf') format('opentype');
+}
+
+.main-div{
+    background-color: #e1c9ff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-family: Ubuntu, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+.title{
+    margin: 0;
+    font-size: 32px;
+    color: #4d148a;
+}
+.count-div{
+    margin: 10px;
+    box-sizing: border-box;
+    height: 45px;
+    width: 55px;
+    border-radius: 5px;
+    background-color: #dcbfff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count{
+    margin: 0;
+    padding-bottom: 2px;
+    height: 26px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #4d148a;
+}
+.btn{
+    height: 27px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    padding: 1px 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3a9ff;
+    color: #4d148a;
+
+}
+.btn:hover{
+    background-color: #bd91ec;
+}
+.btn:active{
+    background-color: #9d6bd2;
+}
+.dot{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #dbbeff;
+    z-index: 1;
+}
